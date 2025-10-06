@@ -6,6 +6,7 @@ import ObjectLiteral from './typescrip/ObjectLiteral' */
 /* import Counter from "./components/Counter" */
 import { AuthProvider } from './context/AuthContext'
 import { LoginPage } from "./components/LoginPage";
+import UserPage from './components/UserPage';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <h1 className="text-4xl mb-5"  >react mas typescrip</h1>
           {/* <Counter /> */}
           <LoginPage />
+          <UserPage/>
         </div>
 
 
