@@ -4,9 +4,10 @@
 import ObjectLiteral from './typescrip/ObjectLiteral' */
 
 /* import Counter from "./components/Counter" */
+import FormsPage from './components/FormsPage'
 import { AuthProvider } from './context/AuthContext'
-import { LoginPage } from "./components/LoginPage";
-import UserPage from './components/UserPage';
+/* import { LoginPage } from "./components/LoginPage";
+import UserPage from './components/UserPage'; */
 
 function App() {
 
@@ -16,8 +17,9 @@ function App() {
         <div className="flex  flex-col justify-center items-center h-svh">
           <h1 className="text-4xl mb-5"  >react mas typescrip</h1>
           {/* <Counter /> */}
-          <LoginPage />
-          <UserPage/>
+          {/* <LoginPage />
+          <UserPage /> */}
+          <FormsPage />
         </div>
 
 
